@@ -16,7 +16,8 @@ class User extends Authenticatable
     protected $fillable = [
         'username',
         'password',
-        'ban_reason'
+        'ban_reason',
+        'last_login'
     ];
 
     public function game()
